@@ -1,0 +1,30 @@
+StateName,PNGFilename,ClickableName,NextState
+Start,assets/start.png,Next,Introduction
+Introduction,assets/introduction.png,Next,Hospital1
+Hospital1,assets/Hospital1.png,Select1,Hospital101
+Hospital101,assets/Hospital1O1.png,Select1,Hospital1O1O2end
+Hospital1O1O2end,assets/Hospital1O1O2end.png,StartOver, Start
+Hospital101,assets/Hospital1O1.png,Select2,Hospital1O11
+Hospital1O11,assets/Hospital1O11.png,Select1,Hospital1O11O1
+Hospital1O11,assets/Hospital1O11.png,Select2,identified
+identified,assets/identified.png,startover,start
+Hospital1O11O1,assets/Hospital1O11O1.png,Select1,identified
+identified,assets/identified.png,startover,start
+Hospital1O11O1,assets/Hospital1O11O1.png,Select2,unidentified
+unidentified,assets/uhidentified.png,startover,start
+Hospital1O2,assets/Hospital1O2.png,Select1,Hospital1O2end
+Hospital1O2end,assets/Hospital1O2end.png,startover,Start
+Hospital1O2,assets/Hospital1O2.png,Select2,SR1
+SR1,assets/SR1.png,Select1, SR1O1
+SR1,assets/SR1.png,Select2, SR1O2
+SR101,assets/SR1O1.png, Select1,AS1
+AS1,assets/AS1.png, Select1,Approvedloanend
+Approvedloanend,assets/approcedloanend.png, Select1,Start
+AS1,assets/AS1.png, Select2,Nofundsend
+Nofundsend, assets/nofundsend.png,Startover,Start
+SR101,assets/SR1O1.png, Select2,sellend
+sellend,assets/sellend.png,Startover,Start
+SR102,assets/SR102.png,Select1,sellend
+sellend,assets/sellend.png,Startover,Start
+SR102,assets/SR102.png,Select2,happyend
+happyend,assets/happyend.png,startover,start
